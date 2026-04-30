@@ -1,0 +1,30 @@
+{
+  "dentist123": {
+    "businessName": "Bright Smile Dental",
+    "address": "123 Main Street, Springfield, IL 62701",
+    "phone": "(555) 123-4567",
+    "email": "info@brightsmile.com",
+    "hours": {
+      "monday": "8:00 AM - 5:00 PM",
+      "tuesday": "8:00 AM - 5:00 PM",
+      "wednesday": "8:00 AM - 5:00 PM",
+      "thursday": "8:00 AM - 5:00 PM",
+      "friday": "8:00 AM - 3:00 PM",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "services": [
+      "Teeth Cleaning",
+      "Teeth Whitening",
+      "Fillings",
+      "Crowns",
+      "Braces & Invisalign",
+      "Root Canals",
+      "Tooth Extractions",
+      "Emergency Dental Care"
+    ],
+    "insurance": ["Delta Dental", "Cigna", "Aetna", "BlueCross BlueShield", "MetLife"],
+    "bookingUrl": "https://brightsmile.com/book",
+    "emergencyNote": "For dental emergencies after hours, please call our emergency line at (555) 999-8888."
+  }
+}
