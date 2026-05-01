@@ -1,6 +1,6 @@
 (function () {
   // ── Config ────────────────────────────────────────────────────────────────
-  const BACKEND_URL = "https://your-app.railway.app"; // ← update after deploying
+  const BACKEND_URL = "https://ai-receptionist-production-f088.up.railway.app";
   const script = document.currentScript;
   const CLIENT_ID = script ? script.getAttribute("data-client") : "dentist123";
   const LANGUAGE = navigator.language || "en"; // auto-detect browser language
