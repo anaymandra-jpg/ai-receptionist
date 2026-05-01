@@ -4,6 +4,16 @@
     "address": "123 Main Street, Springfield, IL 62701",
     "phone": "(555) 123-4567",
     "email": "info@brightsmile.com",
+    "widgetName": "Bright Smile Receptionist",
+    "widgetAvatar": "🦷",
+    "welcomeMessage": "Hi there! 👋 Welcome to Bright Smile Dental. How can I help you today? I can help with appointments, office hours, services, and more.",
+    "smtp": {
+      "host": "smtp.example.com",
+      "port": 587,
+      "user": "info@brightsmile.com",
+      "pass": "your-email-password",
+      "notifyEmail": "info@brightsmile.com"
+    },
     "hours": {
       "monday": "8:00 AM - 5:00 PM",
       "tuesday": "8:00 AM - 5:00 PM",
