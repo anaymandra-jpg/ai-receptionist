@@ -99,7 +99,7 @@ const limiter = rateLimit({
 app.use("/chat", limiter);
 
 // Serve the widget JS file
-app.use("/widget", express.static("../widget"));
+app.use("/widget", express.static(path.join(__dirname, "widget")));
 
 // ── Helper: build the system prompt for a client ───────────────────────────
 
