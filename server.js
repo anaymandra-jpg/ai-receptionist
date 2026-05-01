@@ -6,6 +6,12 @@ const OpenAI = require("openai");
 const clients = require("./clients.json");
 
 const app = express();
+
+if (!process.env.OPENAI_API_KEY) {
+  console.error("ERROR: OPENAI_API_KEY environment variable is not set.");
+  process.exit(1);
+}
+
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 // ── Middleware ──────────────────────────────────────────────────────────────
